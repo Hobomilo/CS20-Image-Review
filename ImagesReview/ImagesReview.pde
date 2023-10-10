@@ -29,11 +29,7 @@ void setup()
 
   rect(backgroundX, backgroundY, backgroundWidth, backgroundHeight);
   rect(appleX, appleY, appleWidth, appleHeight);
-  int picWidth, picHeight;
-  picWidth = ;
-  picHeight = ;
-  if (picWidth >= picHeight) {landscape = true;} else { portrait = true;}
-}
+} 
 
 void draw() {
   image(backgroundPic,backgroundX, backgroundY, backgroundWidth, backgroundHeight);
